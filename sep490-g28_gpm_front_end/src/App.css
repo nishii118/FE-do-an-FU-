@@ -1,0 +1,132 @@
+@import "./style/content-styles.css";
+@tailwind base;
+@tailwind components;
+
+/* Global styles hoặc styles khác có thể ảnh hưởng */
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: inherit;
+}
+
+.ck-editor__editable_inline:not(.ck-comment__input *) {
+  /* max-height: calc(100vh - 70px - 168px - 48px); */
+  max-height: 700px;
+  min-height: 300px;
+  overflow-y: auto;
+}
+
+/* Các styles khác */
+
+/* .ck-editor__editable h2 {
+  font-size: 28px;
+} */
+
+.text-gradient-1 {
+  background: linear-gradient(90deg, #ff7142 0%, #fbad50 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-2 {
+  background: linear-gradient(90deg, #a23c00 0%, #ff843c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.primary-gradient {
+  background: linear-gradient(90deg, #fd6533 0%, #fee0d6 100%);
+}
+
+.secondary-gradient {
+  background: linear-gradient(90deg, #bf6c86 0%, #fee0d6 100%);
+}
+
+.bg-gradient-3 {
+  background: linear-gradient(
+    90deg,
+    rgba(252, 100, 50, 0.2) 0%,
+    rgba(252, 100, 50, 0) 100%
+  );
+}
+
+.bg-gradient-4 {
+  background: linear-gradient(90deg, #fc6432 0%, #9c22ed 100%);
+}
+
+.main-banner-slider .custom-dot-class .slick-active {
+  background-color: #fc6432;
+  border-radius: 20px;
+  width: 55px;
+}
+
+.main-banner-slider .custom-dot-class li {
+  height: 10px;
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: ease-in 0.3s;
+  background-color: rgb(209 213 219);
+  width: 10px;
+  cursor: pointer;
+}
+
+.main-banner-slider .custom-dot-class li button {
+  opacity: 0;
+}
+
+.main-banner-slider .slick-current .main-banner-slider-item {
+  height: 500px;
+}
+
+.main-banner-slider .main-banner-slider-item {
+  height: 400px;
+}
+
+.main-banner-slider .slick-current .main-banner-slider-item-img {
+  height: 480px;
+}
+
+.main-banner-slider .slick-current .main-banner-slider-item-blur-img,
+.main-banner-slider .main-banner-slider-item-blur-img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-banner-slider .main-banner-slider-item-img {
+  height: 380px;
+}
+
+.main-banner-slider .main-banner-slider-item-wrapper {
+  padding: 50px 0;
+}
+
+.main-banner-slider .slick-current .main-banner-slider-item-wrapper {
+  padding: 0;
+}
+
+/* .main-banner-slider .slick-slide {
+  transform: scale(0.8);
+  transition: all 0.4s ease-in-out;
+  padding: 40px 0;
+}
+
+
+.main-banner-slider .slick-slide img {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.main-banner-slider .slick-center {
+  transform: scale(1.1);
+} */
+
+.custom-dot-class {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 16px;
+}

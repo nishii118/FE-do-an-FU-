@@ -1,0 +1,92 @@
+{
+  "name": "sep490_g28_summer2024_fe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-basic-styles": "^41.4.2",
+    "@ckeditor/ckeditor5-build-classic": "^41.4.2",
+    "@ckeditor/ckeditor5-dev-utils": "^40.2.1",
+    "@ckeditor/ckeditor5-editor-classic": "^41.4.2",
+    "@ckeditor/ckeditor5-essentials": "^41.4.2",
+    "@ckeditor/ckeditor5-image": "^41.4.2",
+    "@ckeditor/ckeditor5-media-embed": "^41.4.2",
+    "@ckeditor/ckeditor5-paragraph": "^41.4.2",
+    "@ckeditor/ckeditor5-react": "^7.0.0",
+    "@ckeditor/ckeditor5-table": "^41.4.2",
+    "@ckeditor/ckeditor5-theme-lark": "^41.4.2",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@hookform/resolvers": "^3.9.0",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.16.7",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@mui/system": "^5.16.7",
+    "@mui/x-charts": "^7.12.0",
+    "@mui/x-data-grid": "^7.7.0",
+    "@mui/x-date-pickers": "^7.6.2",
+    "@react-oauth/google": "^0.12.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.1",
+    "chart.js": "^4.4.3",
+    "ckeditor5-custom-build": "file:ckeditor5",
+    "date-fns": "^3.6.0",
+    "dayjs": "^1.11.12",
+    "dayjs-plugin-utc": "^0.1.2",
+    "filepond-plugin-file-validate-type": "^1.2.9",
+    "firebase": "^10.12.2",
+    "install": "^0.13.0",
+    "lodash": "^4.17.21",
+    "npm": "^10.8.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-filepond": "^7.1.2",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-hook-form": "^7.52.1",
+    "react-icons": "^5.2.1",
+    "react-medium-image-zoom": "^5.2.5",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "react-slideshow-image": "^4.3.1",
+    "react-table": "^7.8.0",
+    "react-toastify": "^10.0.5",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.12",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0",
+    "zustand": "^4.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
+    "tailwindcss": "^3.4.3"
+  }
+}
